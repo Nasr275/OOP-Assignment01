@@ -19,7 +19,7 @@ namespace OOP_Assignment01
     }
 
 
-    internal enum Seas_on
+    internal enum Season
     {
         Spring,
         Summer,
