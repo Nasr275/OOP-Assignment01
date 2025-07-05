@@ -48,11 +48,29 @@
             #endregion
 
 
- 
+            #region 3.Q3
 
 
 
+            #endregion
 
+
+            #region 4.Q4
+
+            Console.Write("Enter a color name: ");
+            string inputColor = Console.ReadLine();
+
+            // Try to parse the input as a member of the Colors enum (case-insensitive)
+            if (Enum.TryParse(typeof(Colors), input, true, out object result))
+            {
+                Console.WriteLine($"{input} is a primary color.");
+            }
+            else
+            {
+                Console.WriteLine($"{input} is NOT a primary color.");
+            }
+
+            #endregion
 
 
         }

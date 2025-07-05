@@ -27,4 +27,23 @@ namespace OOP_Assignment01
         Winter
     }
 
+
+    internal enum Permissions
+    {
+        None = 0,
+        Read = 1 << 0,  // 1
+        Write = 1 << 1,  // 2
+        Delete = 1 << 2,  // 4
+        Execute = 1 << 3   // 8
+    }
+
+
+    internal enum Colors
+    {
+        Red,
+        Green,
+        Blue
+    }
+
+
 }
